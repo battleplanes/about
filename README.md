@@ -37,7 +37,18 @@ between languages and technology stacks, statistics like bugs / tickets, etc.
 How the Game is Played
 ======================
 
-TODO
+The aim is to kill your opponent's planes first. Each player positions three
+planes on his board. Planes can be oriented in any of the four directions, but
+they are not allowed to overlap or to fall even partially off the map.
+
+A plane is considered killed when its cockpit is hit. When aiming at a tile,
+your opponent tells you whether you have a *hit*, a *miss* or a *kill*. No
+other information is exchanged.
+
+Once a plane has been killed, the tiles where the killed plane used to be count
+now as *misses*.
+
+[Detailed game play](Gameplay)
 
 Development
 ===========
