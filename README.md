@@ -48,7 +48,7 @@ other information is exchanged.
 Once a plane has been killed, the tiles where the killed plane used to be count
 now as *misses*.
 
-[Detailed game play](Gameplay)
+[Detailed game play](Gameplay.md)
 
 Development
 ===========
