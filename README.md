@@ -53,7 +53,33 @@ now as *misses*.
 Development
 ===========
 
-TODO
+Anyone can write an implementation of battleplanes using any technology she/he
+wants. There are several non-functional criterias which must be fulfilled by
+all implementations:
+
+* the core of the game, containing the logic, must be isolated in its own
+  module, using tools and techniques specific to the language / ecosystem
+  chosen for implementation (a C/C++ .dll/.so, a Java .jar, a Rust crate,
+  a PSR-4 compliant PHP composer module in its own namespace, etc)
+* There are different interfaces to the game, which are packaged separately:
+  console, web, native GUIs, OpenGL interfaces, etc.
+* For web interfaces, the implementation is split in two separate programs: the
+  frontend and the backend
+* The backend for a web deployment implements REST endpoints for all
+  operations, and provides a basic UI for playing the game
+* Any frontend web program can be paired with any backend server, with no or
+  minimal modifications
+* Other features like persistence should be modular and easily swappable
+
+Further non-functional criterias will be identified over time. They may include
+features like documentation, testing, performance, high availability
+/ distributed systems, security, etc.
+
+Some functional features may include:
+
+* AI levels
+* human agains human
+* tournaments
 
 Implementation Roadmap
 ----------------------
