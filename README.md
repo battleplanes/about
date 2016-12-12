@@ -1,7 +1,7 @@
 What is this?
 =============
 
-Battleplanes is a game similar with battleships, but more challenging on
+Battleplanes is a game similar to battleships, but more challenging on
 several fronts.
 
 The Battleplanes Project
