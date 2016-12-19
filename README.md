@@ -4,6 +4,9 @@ What is this?
 Battleplanes is a game similar to battleships, but more challenging on
 several fronts.
 
+[![Join the chat at
+https://gitter.im/battleplanes/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/battleplanes/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The Battleplanes Project
 ========================
 
